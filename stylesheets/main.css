@@ -1,0 +1,31 @@
+.nav-wrapper {
+	border: 1px solid black;
+	width: 100%;
+}
+
+.nav-main li {
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+/* psuedo selector */
+.nav-main li:last-child {
+	border-bottom-style: none;
+}
+
+.nav-main li a {
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 22px;
+	font-style: bold;
+}
+
+section {
+	/*height: 200px;*/
+	padding-bottom: 50px;
+	border-bottom: 1px solid red;
+}
